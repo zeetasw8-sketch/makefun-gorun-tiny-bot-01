@@ -99,8 +99,7 @@ type SymbolState = {
   peak: bigint | null;
 };
 
-const FAST_SPAN = 9;
-const SLOW_SPAN = 21;
+const FAST_SPAN = 9, SLOW_SPAN = 21;
 
 let hello: HelloMsg | null = null;
 let batchCount = 0;
